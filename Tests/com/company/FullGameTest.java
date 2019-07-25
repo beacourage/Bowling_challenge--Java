@@ -27,6 +27,16 @@ public class FullGameTest {
     }
 
 
+    @DisplayName("Calculates the score from a perfect game")
+    @Test
+    public void perfectGame() {
+        game.all_frames(10,0);
+        int score = game.total_game_score() + Frame.perfect_game_bonus();
+        assertEquals(300,score);
+
+    }
+
+
 
 
 }

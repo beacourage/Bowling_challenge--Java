@@ -31,9 +31,6 @@ public class FullGame {
         return score;
     }
 
-
-
-
 }
 
 
