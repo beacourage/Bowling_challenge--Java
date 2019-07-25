@@ -11,6 +11,8 @@ public class Main {
 
         game.all_frames(2,3);
 
+
+
         System.out.println(game.getFrames());
 
 
@@ -20,6 +22,11 @@ public class Main {
 
         System.out.println(game.total_game_score());
 
+
+        if (game.getFrames().contains(6)) {
+            System.out.println("contains 6");
+        } else
+            System.out.println("doesn't contain 6");
 
     }
 }

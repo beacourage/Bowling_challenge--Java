@@ -31,7 +31,7 @@ public class FullGameTest {
     @Test
     public void perfectGame() {
         game.all_frames(10,0);
-        int score = game.total_game_score() + Frame.perfect_game_bonus();
+        int score = game.total_game_score();
         assertEquals(300,score);
 
     }

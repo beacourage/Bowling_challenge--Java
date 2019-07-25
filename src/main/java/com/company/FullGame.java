@@ -25,11 +25,19 @@ public class FullGame {
 
     public int total_game_score() {
        int score = 0;
-        for (int i=0; i<20; i++) {
-            score += (int) getFrames().get(i);
-        }
+         if (getFrames().contains(10)){
+             score += Frame.perfect_game_bonus();
+             for (int i=0; i<20; i++) {
+                 score += (int) getFrames().get(i);
+             }
+         } else
+             for (int i=0; i<20; i++) {
+                 score += (int) getFrames().get(i);
+             }
         return score;
     }
+
+//
 
 }
 
