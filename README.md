@@ -1,7 +1,7 @@
 Bowling Challenge
 =================
 
-Challenge to improve and practice Java.
+Challenge to improve and practice Java. This was one of the challenges from Makers Academy.
 
 ## The Task
 
