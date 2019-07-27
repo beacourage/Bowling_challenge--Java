@@ -3,10 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="f34bfa69-4786-43df-8d40-70ca02d96615" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/com/company/FrameTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/AllFrames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/AllFrames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Frame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/FullGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/FullGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Frame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/FullGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/FrameTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/FullGameTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -54,10 +60,6 @@
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
   </component>
   <component name="ProjectId" id="1OawIGy1oHKqQ0G36E7VlLtsI4F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -101,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.GameTest.firstFrame">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Bowling" />
@@ -142,13 +144,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GameTest.firstFrame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.GameTest" />
+      <option name="METHOD_NAME" value="firstFrame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.GameTest" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.FrameTest" />
       <item itemvalue="JUnit.FullGameTest" />
+      <item itemvalue="JUnit.GameTest.firstTest" />
+      <item itemvalue="JUnit.GameTest.firstFrame" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.firstFrame" />
+        <item itemvalue="JUnit.GameTest.firstTest" />
         <item itemvalue="JUnit.FullGameTest" />
         <item itemvalue="JUnit.FrameTest" />
       </list>
@@ -174,38 +212,6 @@
       <workItem from="1564065712820" duration="1344000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="FrameTest - 2019.07.25 at 15h 26m 44s.xml">
-      <configuration name="FrameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FrameTest - 2019.07.25 at 15h 28m 02s.xml">
-      <configuration name="FrameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullGameTest - 2019.07.25 at 15h 58m 26s.xml">
-      <configuration name="FullGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullGameTest - 2019.07.25 at 16h 45m 21s.xml">
-      <configuration name="FullGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullGameTest - 2019.07.25 at 16h 49m 33s.xml">
-      <configuration name="FullGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullGameTest - 2019.07.25 at 17h 09m 23s.xml">
-      <configuration name="FullGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullGameTest - 2019.07.25 at 17h 09m 39s.xml">
-      <configuration name="FullGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullGameTest - 2019.07.25 at 17h 12m 44s.xml">
-      <configuration name="FullGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullGameTest - 2019.07.25 at 17h 19m 43s.xml">
-      <configuration name="FullGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullGameTest - 2019.07.25 at 17h 22m 20s.xml">
-      <configuration name="FullGameTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="37831000" />
