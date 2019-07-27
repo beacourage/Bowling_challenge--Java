@@ -12,6 +12,7 @@ public class GameTest {
 
     @Before
     public void setup() {
+
         game = new Game();
     }
 
@@ -34,6 +35,7 @@ public class GameTest {
         AllFrames allframes = new AllFrames(3,7,4,5,6,4,5,5,10,0,0,1,7,3,6,4,10,0,8,8);
         assertEquals(14, game.getScore());
     }
+
 
 
 }

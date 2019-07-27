@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f34bfa69-4786-43df-8d40-70ca02d96615" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/com/company/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/com/company/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/GameTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +79,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -97,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Bowling" />
@@ -195,10 +199,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FullGameTest" />
         <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.GameTest.firstFrame" />
         <item itemvalue="JUnit.GameTest.firstTest" />
-        <item itemvalue="JUnit.FullGameTest" />
         <item itemvalue="JUnit.FrameTest" />
       </list>
     </recent_temporary>

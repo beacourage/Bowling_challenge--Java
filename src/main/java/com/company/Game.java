@@ -9,16 +9,19 @@ public class Game {
     }
 
 
+
+
     public int getScore() {
         if ((AllFrames.getFrame1_1() == 10) || (AllFrames.getFrame1_2() == 10)) {
             score += AllFrames.getFrame1_1() + AllFrames.getFrame1_2() + AllFrames.getFrame2_1() + AllFrames.getFrame2_2();
         } else if (AllFrames.getFrame1_1() + AllFrames.getFrame1_2() == 10) {
             score += 10 + AllFrames.getFrame2_1();
-        } else {
+        } else
             score += AllFrames.getFrame1_1() + AllFrames.getFrame1_2();
-        }
-    return score;
+      return score;
     }
+
+
 
 
 }
