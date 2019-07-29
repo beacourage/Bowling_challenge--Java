@@ -28,8 +28,7 @@ public class Main {
         System.out.println(newGame.getFrames());
         System.out.println(newGame.getStrikeBonus());
         System.out.println(newGame.getScore());
-        System.out.println(newGame.totalGameScore());
-
+        System.out.println(newGame.totalScore());
 
 
         FullGame nextGame = new FullGame();

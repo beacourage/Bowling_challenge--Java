@@ -62,18 +62,16 @@ public class FullGameTest {
     }
 
 
-//
-//    @DisplayName("Calculates total game score, adding score, strikebonus, sparebonuys")
-//    @Test
-//    public void perfectGame() {
-//        game.all_frames(10,0);
-//        game.getFrames().addAll(Arrays.asList(10,0,10,0));
-//        game.getStrikeBonus();
-//        game.getScore();
-//        assertEquals(300, game.totalGameScore());
-//    }
-//
-//
+
+    @DisplayName("Calculates total game score, adding score, strikebonus, sparebonuys")
+    @Test
+    public void perfectGame() {
+        game.all_frames(10,0);
+        game.getFrames().addAll(Arrays.asList(10,0,10,0));
+        assertEquals(300, game.totalScore());
+    }
+
+
 
 
 

@@ -14,7 +14,7 @@ public class FullGame {
         this.score = 0;
         this.spareBonus = 0;
         this.strikeBonus = 0;
-    }
+}
 
     public ArrayList<Object> getFrames() {
         return frames;
@@ -37,7 +37,7 @@ public class FullGame {
 
     public int getSpareBonus() {
         for (int i = 0; i < (getFrames().size()  - 2); i += 2) {
-            if ((int)getFrames().get(i) + (int)getFrames().get(i + 1) == 10 ) {
+            if (((int)getFrames().get(i) + (int)getFrames().get(i + 1) == 10 ) && ((int)getFrames().get(i) != 10)) {
                 spareBonus += (int)getFrames().get(i+2);
             }
         }
@@ -56,14 +56,23 @@ public class FullGame {
         return strikeBonus;
     }
 
-    //Bonus is the next two rolls (next frame), unless the player rolls another strike.
-//    if player rolls another strike at (i+2), then it goes into following frame.
 
 
-    public int totalGameScore() {
-        return score + spareBonus + strikeBonus;
+    public int totalScore() {
+        int totalScore = score + spareBonus + strikeBonus;
+        return totalScore;
     }
 
+
+
+
+
+
+
+
+
+    //Bonus is the next two rolls (next frame), unless the player rolls another strike.
+//    if player rolls another strike at (i+2), then it goes into following frame.
 
 
 }

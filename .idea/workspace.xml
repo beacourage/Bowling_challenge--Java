@@ -37,26 +37,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="47" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/com/company/FullGameTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+            <state relative-caret-position="527">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/com/company/FullGameTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="70" column="85" selection-start-line="70" selection-start-column="85" selection-end-line="70" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/FullGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="664">
+              <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -79,8 +79,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/company/AllFrames.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" />
+        <option value="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" />
       </list>
     </option>
   </component>
@@ -207,21 +207,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bowling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.FrameTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FullGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bowling" />
       <extension name="coverage">
@@ -237,68 +222,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bowling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.GameTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameTest.firstFrame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bowling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.GameTest" />
-      <option name="METHOD_NAME" value="firstFrame" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bowling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.GameTest" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.FrameTest" />
       <item itemvalue="JUnit.FullGameTest" />
-      <item itemvalue="JUnit.GameTest.firstTest" />
-      <item itemvalue="JUnit.GameTest.firstFrame" />
-      <item itemvalue="JUnit.GameTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FullGameTest" />
-        <item itemvalue="JUnit.GameTest" />
-        <item itemvalue="JUnit.GameTest.firstFrame" />
-        <item itemvalue="JUnit.GameTest.firstTest" />
-        <item itemvalue="JUnit.FrameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -324,34 +254,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FullGameTest - 2019.07.29 at 12h 42m 05s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 12h 51m 20s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 12h 43m 20s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 12h 51m 50s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 12h 44m 23s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 12h 57m 32s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 12h 44m 46s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 04m 57s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 12h 46m 38s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 13m 06s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 12h 47m 30s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 13m 34s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest_perfectGame - 2019.07.29 at 12h 47m 35s.xml">
-      <configuration name="FullGameTest.perfectGame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 12h 47m 40s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 14m 50s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 12h 47m 48s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 15m 12s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 12h 47m 58s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 16m 09s.xml">
+      <configuration name="FullGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 16m 27s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -390,7 +320,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info active="true" anchor="right" x="863" y="40" width="818" height="439" id="Run" order="9" visible="true" weight="0.21515892" />
+      <window_info active="true" anchor="right" x="863" y="40" width="818" height="439" id="Run" order="9" visible="true" weight="0.29523227" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,18 +358,6 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Tests/com/company/FullGameTest.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/AllFrames.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -453,22 +371,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/com/company/FullGameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+        <state relative-caret-position="527">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/FullGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="664">
+          <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/com/company/FullGameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="70" column="85" selection-start-line="70" selection-start-column="85" selection-end-line="70" selection-end-column="85" />
         </state>
       </provider>
     </entry>
