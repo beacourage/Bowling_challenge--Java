@@ -20,8 +20,6 @@ public class Main {
         game.getting_every_second_element();
 
 
-
-
 //        game.spare();
         System.out.println(game.getSpareBonus());
 

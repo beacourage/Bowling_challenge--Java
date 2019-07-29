@@ -26,6 +26,17 @@ public class FullGameTest {
         assertEquals(0,score);
     }
 
+
+
+    @DisplayName("Calculates the total sparebonus")
+    @Test
+    public void spareBonus() {
+        game.all_frames(3, 7);
+        game.getFrames().add(2);
+//  [3, 7, 3, 7, 3, 7, 3, 7, 3, 7, 3, 7, 3, 7, 3, 7, 3, 7, 3, 7, 2]
+        assertEquals(29, game.getSpareBonus());
+    }
+
 //
 //    @DisplayName("Calculates the score from a perfect game")
 //    @Test
