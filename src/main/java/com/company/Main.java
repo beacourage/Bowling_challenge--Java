@@ -30,30 +30,9 @@ public class Main {
 
 
 
+        FullGame nextGame = new FullGame();
 
-
-
-
-
-
-
-
-
-
-
-
-
-//
-//
-//
-//          AllFrames allframes = new AllFrames(1,4,4,5,6,4,5,5,10,0,0,1,7,3,6,4,10,0,8,8);
-//
-//          Game mygame = new Game();
-//
-//           System.out.println(mygame.getScore());
-//
-//        AllFrames allframes = new AllFrames(1,4,4,5,6,4,5,5,10,0,0,1,7,3,6,4,10,0,8,8);
-//
+        nextGame.getFrames().addAll(Arrays.asList(3,7,10,0,3,7,2,2,10,0,3,3,6,6,3,9,10,0,2,2));
 
 
     }

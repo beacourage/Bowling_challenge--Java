@@ -50,22 +50,33 @@ public class FullGame {
     }
 
     public int getStrikeBonus() {
-        for (int i = 0; i < (getFrames().size()  - 2); i += 2) {
-            if (((int)getFrames().get(i) == 10 ) || ((int)getFrames().get(i+1) == 10)) {
-                strikeBonus += (int)getFrames().get(i+2);
-                strikeBonus += (int)getFrames().get(i+3);
+        for (int i = 0; i < (getFrames().size()  - 4); i += 2) {
+            if (((int)getFrames().get(i) == 10 )) {
+                if ((int)getFrames().get(i+2) == 10) {
+                    strikeBonus += (int)getFrames().get(i+2) + (int)getFrames().get(i+4);
+                } else
+                    strikeBonus += (int)getFrames().get(i+2) + (int)getFrames().get(i+3);
             }
         }
         return strikeBonus;
     }
 
+//    do special condition for three bowls in tenth frame.
 
-//Want to make an arraylist but pair the integers.
+
+
+//Bonus is the next two rolls (next frame), unless the player rolls another strike.
+//    if player rolls another strike at (i+2), then it goes into following frame.
+
 
 
 
 
 }
+
+
+
+
 
 
 

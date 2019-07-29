@@ -46,6 +46,14 @@ public class FullGameTest {
     }
 
 
+    @DisplayName("Calculates the strikebonus")
+    @Test
+    public void strikeBonus() {
+        game.getFrames().addAll(Arrays.asList(3,7,10,0,3,7,2,2,10,0,3,3,6,6,10,0,3,7,2,2));
+        assertEquals(26, game.getStrikeBonus());
+    }
+
+
 
 
 
