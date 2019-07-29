@@ -69,8 +69,6 @@ public class FullGame {
 //    Calculate Scores for Ten Pin Bowling -- total game score
 //    Game consists of 10 frames each with 1 or 2 rolls [1,2]
 
-
-
 //Bonus is the next two rolls (next frame), unless the player rolls another strike.
 // if player rolls another strike at (i+2), then it goes into following frame.
 //    special condition for 10th frame.
