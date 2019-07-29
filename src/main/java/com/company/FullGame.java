@@ -61,7 +61,6 @@ public class FullGame {
         return strikeBonus;
     }
 
-//    do special condition for three bowls in tenth frame.
 
 
 
@@ -69,7 +68,7 @@ public class FullGame {
 //    if player rolls another strike at (i+2), then it goes into following frame.
 
 
-
+//special condition for 10th frame.
 
 
 }

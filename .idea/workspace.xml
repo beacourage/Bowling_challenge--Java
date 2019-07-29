@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34bfa69-4786-43df-8d40-70ca02d96615" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/FullGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/FullGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/FullGameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/FullGameTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,26 +33,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="95" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/FullGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+            <state relative-caret-position="442">
+              <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/FullGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="641">
+              <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/com/company/FullGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="51" column="78" lean-forward="true" selection-start-line="51" selection-start-column="78" selection-end-line="51" selection-end-column="90" />
+            <state relative-caret-position="818">
+              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -80,8 +75,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/company/AllFrames.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" />
+        <option value="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" />
       </list>
     </option>
   </component>
@@ -325,15 +320,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FullGameTest - 2019.07.29 at 10h 02m 20s.xml">
-      <configuration name="FullGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 10h 06m 09s.xml">
-      <configuration name="FullGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 10h 06m 39s.xml">
-      <configuration name="FullGameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FullGameTest - 2019.07.29 at 10h 08m 08s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
@@ -350,6 +336,18 @@
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FullGameTest - 2019.07.29 at 11h 57m 57s.xml">
+      <configuration name="FullGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FullGameTest - 2019.07.29 at 11h 59m 28s.xml">
+      <configuration name="FullGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FullGameTest - 2019.07.29 at 11h 59m 55s.xml">
+      <configuration name="FullGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FullGameTest - 2019.07.29 at 12h 01m 19s.xml">
+      <configuration name="FullGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FullGameTest - 2019.07.29 at 12h 01m 46s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -437,24 +435,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/FullGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="95" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="95" />
+        <state relative-caret-position="442">
+          <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/com/company/FullGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="51" column="78" lean-forward="true" selection-start-line="51" selection-start-column="78" selection-end-line="51" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/FullGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+        <state relative-caret-position="818">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
         </state>
       </provider>
     </entry>

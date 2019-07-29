@@ -53,6 +53,14 @@ public class FullGameTest {
         assertEquals(26, game.getStrikeBonus());
     }
 
+    @DisplayName("Calculates the strikebonus if player rolls two strikes in a row")
+    @Test
+    public void multipleStrikeBonus() {
+        game.all_frames(10,0);
+        game.getFrames().addAll(Arrays.asList(10,0,10,0));
+        assertEquals(200, game.getStrikeBonus());
+    }
+
 
 
 
