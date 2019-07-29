@@ -48,6 +48,11 @@ public class FullGame {
     }
 
 
+//
+//    public int getStrikeBonus() {
+//    }
+
+
 
 
 

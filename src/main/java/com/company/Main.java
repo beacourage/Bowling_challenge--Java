@@ -1,5 +1,6 @@
 package com.company;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
 
@@ -17,11 +18,22 @@ public class Main {
         System.out.println(game.total_game_score());
 
 
-        game.getting_every_second_element();
+//        game.getting_every_second_element();
 
 
-//        game.spare();
         System.out.println(game.getSpareBonus());
+
+        FullGame newgame = new FullGame();
+
+        newgame.getFrames().addAll(Arrays.asList(3,7,2,2,3,7,2,2,3,7,3,3,6,6,3,9,3,7,2,2));
+
+
+
+        System.out.println(newgame.getFrames());
+        System.out.println(newgame.getSpareBonus());
+
+
+
 
 
 

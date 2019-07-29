@@ -4,6 +4,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 
+import java.util.Arrays;
+
 import static org.junit.Assert.*;
 
 public class FullGameTest {
@@ -30,22 +32,19 @@ public class FullGameTest {
 
     @DisplayName("Calculates the total sparebonus")
     @Test
-    public void spareBonus() {
+    public void spareBonus1() {
         game.all_frames(3, 7);
         game.getFrames().add(2);
 //  [3, 7, 3, 7, 3, 7, 3, 7, 3, 7, 3, 7, 3, 7, 3, 7, 3, 7, 3, 7, 2]
         assertEquals(29, game.getSpareBonus());
     }
 
-//
-//    @DisplayName("Calculates the score from a perfect game")
-//    @Test
-//    public void perfectGame() {
-//        game.all_frames(10,0);
-//        int score = game.total_game_score();
-//        assertEquals(300,score);
-//
-//    }
+    @Test
+    public void spareBonus2() {
+        game.getFrames().addAll(Arrays.asList(3,7,2,2,3,7,2,2,3,7,3,3,6,6,3,9,3,7,2,2));
+         assertEquals(9,game.getSpareBonus());
+    }
+
 
 
 
