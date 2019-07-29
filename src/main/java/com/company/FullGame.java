@@ -7,11 +7,13 @@ public class FullGame {
     private ArrayList<Object> frames;
     private int score;
     private int spareBonus;
+    private int strikeBonus;
 
     public FullGame() {
         this.frames = new ArrayList<Object>();
         this.score = 0;
         this.spareBonus = 0;
+        this.strikeBonus = 0;
     }
 
     public ArrayList<Object> getFrames() {
@@ -47,25 +49,15 @@ public class FullGame {
         return spareBonus;
     }
 
-
-//
-//    public int getStrikeBonus() {
-//    }
-
-
-
-
-
-
-
-
-
-
-
-
-//    if getframes i+1 + getframes i = 10
-//            score += i + (i+1) + (i+2)
-
+    public int getStrikeBonus() {
+        for (int i = 0; i < (getFrames().size()  - 2); i += 2) {
+            if (((int)getFrames().get(i) == 10 ) || ((int)getFrames().get(i+1) == 10)) {
+                strikeBonus += (int)getFrames().get(i+2);
+                strikeBonus += (int)getFrames().get(i+3);
+            }
+        }
+        return strikeBonus;
+    }
 
 
 //Want to make an arraylist but pair the integers.

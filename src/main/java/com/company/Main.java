@@ -20,19 +20,13 @@ public class Main {
 
 //        game.getting_every_second_element();
 
-
         System.out.println(game.getSpareBonus());
 
-        FullGame newgame = new FullGame();
-
-        newgame.getFrames().addAll(Arrays.asList(3,7,2,2,3,7,2,2,3,7,3,3,6,6,3,9,3,7,2,2));
-
-
-
-        System.out.println(newgame.getFrames());
-        System.out.println(newgame.getSpareBonus());
-
-
+         FullGame newGame = new FullGame();
+         newGame.all_frames(10,0);
+         newGame.getFrames().addAll(Arrays.asList(10,0,10,0));
+        System.out.println(newGame.getFrames());
+        System.out.println(newGame.getStrikeBonus());
 
 
 
