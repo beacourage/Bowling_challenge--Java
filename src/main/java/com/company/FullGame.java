@@ -73,8 +73,6 @@ public class FullGame {
 
 //Bonus is the next two rolls (next frame), unless the player rolls another strike.
 // if player rolls another strike at (i+2), then it goes into following frame.
-
-
 //    special condition for 10th frame.
 
 

@@ -72,7 +72,12 @@ public class FullGameTest {
     }
 
 
-
+    @DisplayName("Calculates total score from a normal game")
+    @Test
+    public void normalGame() {
+        game.getFrames().addAll(Arrays.asList(1,4,4,5,6,4,5,5,10,0,0,1,7,3,6,4,10,0,2,8,6));
+        assertEquals(133, game.totalScore());
+    }
 
 
 }
