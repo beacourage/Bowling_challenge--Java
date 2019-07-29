@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34bfa69-4786-43df-8d40-70ca02d96615" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/FullGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/FullGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/FullGameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/FullGameTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/com/company/FullGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="70" column="85" selection-start-line="70" selection-start-column="85" selection-end-line="70" selection-end-column="85" />
+            <state relative-caret-position="730">
+              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -55,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/FullGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
-              <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+            <state relative-caret-position="255">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -79,8 +75,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/company/AllFrames.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" />
         <option value="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" />
       </list>
     </option>
   </component>
@@ -96,6 +92,10 @@
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectId" id="1OawIGy1oHKqQ0G36E7VlLtsI4F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -196,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FullGameTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Bowling" />
@@ -254,34 +254,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FullGameTest - 2019.07.29 at 12h 51m 20s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 55m 34s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 12h 51m 50s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 56m 08s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 12h 57m 32s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 56m 45s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 15h 04m 57s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 57m 23s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 15h 13m 06s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 57m 48s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 15h 13m 34s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 58m 23s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 15h 14m 50s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 58m 33s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 15h 15m 12s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 58m 44s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 15h 16m 09s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 58m 58s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 15h 16m 27s.xml">
+    <history-entry file="FullGameTest - 2019.07.29 at 15h 59m 17s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -320,7 +320,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info active="true" anchor="right" x="863" y="40" width="818" height="439" id="Run" order="9" visible="true" weight="0.29523227" />
+      <window_info anchor="right" x="863" y="40" width="818" height="439" id="Run" order="9" weight="0.29523227" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,15 +378,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/FullGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+        <state relative-caret-position="255">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/com/company/FullGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="70" column="85" selection-start-line="70" selection-start-column="85" selection-end-line="70" selection-end-column="85" />
+        <state relative-caret-position="730">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
         </state>
       </provider>
     </entry>

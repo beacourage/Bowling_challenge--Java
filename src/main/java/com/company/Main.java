@@ -25,9 +25,9 @@ public class Main {
          FullGame newGame = new FullGame();
          newGame.all_frames(10,0);
          newGame.getFrames().addAll(Arrays.asList(10,0,10,0));
+
         System.out.println(newGame.getFrames());
-        System.out.println(newGame.getStrikeBonus());
-        System.out.println(newGame.getScore());
+
         System.out.println(newGame.totalScore());
 
 
