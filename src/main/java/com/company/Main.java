@@ -15,7 +15,7 @@ public class Main {
         game.getFrames().add(2);
         System.out.println(game.getFrames());
         System.out.println(game.getFrames().size());
-        System.out.println(game.total_game_score());
+        System.out.println(game.getScore());
 
 
 //        game.getting_every_second_element();
@@ -27,6 +27,8 @@ public class Main {
          newGame.getFrames().addAll(Arrays.asList(10,0,10,0));
         System.out.println(newGame.getFrames());
         System.out.println(newGame.getStrikeBonus());
+        System.out.println(newGame.getScore());
+        System.out.println(newGame.totalGameScore());
 
 
 

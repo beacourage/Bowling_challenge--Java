@@ -27,22 +27,17 @@ public class FullGame {
        }
     }
 
-    public int total_game_score() {
-             for (int i=0; i<getFrames().size(); i++) {
+    public int getScore() {
+             for (int i=0; i<20; i++) {
                  score += (int) getFrames().get(i);
              }
         return score;
     }
 
-    public void getting_every_second_element() {
-        for (int i = 0; i < getFrames().size(); i+= 2) {
-            System.out.println("First roll is " + getFrames().get(i));
-        }
-    }
 
     public int getSpareBonus() {
         for (int i = 0; i < (getFrames().size()  - 2); i += 2) {
-            if ((int)getFrames().get(i) + (int)getFrames().get(i + 1) == 10 ){
+            if ((int)getFrames().get(i) + (int)getFrames().get(i + 1) == 10 ) {
                 spareBonus += (int)getFrames().get(i+2);
             }
         }
@@ -61,14 +56,14 @@ public class FullGame {
         return strikeBonus;
     }
 
-
-
-
-//Bonus is the next two rolls (next frame), unless the player rolls another strike.
+    //Bonus is the next two rolls (next frame), unless the player rolls another strike.
 //    if player rolls another strike at (i+2), then it goes into following frame.
 
 
-//special condition for 10th frame.
+    public int totalGameScore() {
+        return score + spareBonus + strikeBonus;
+    }
+
 
 
 }
@@ -83,7 +78,7 @@ public class FullGame {
 
 
 
-
+//    special condition for 10th frame.
 
 
 
