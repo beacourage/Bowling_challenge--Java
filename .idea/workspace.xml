@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34bfa69-4786-43df-8d40-70ca02d96615" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/com/company/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/com/company/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/BonusScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Score.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/FullGameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/company/FullGameTest.class" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+            <state relative-caret-position="408">
+              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -43,17 +44,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/com/company/FullGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1048">
-              <caret line="77" column="92" selection-start-line="77" selection-start-column="92" selection-end-line="77" selection-end-column="92" />
+            <state relative-caret-position="663">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/FullGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/FullGame.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Score.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="74" column="78" selection-start-line="74" selection-start-column="78" selection-end-line="74" selection-end-column="78" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -76,8 +86,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/company/AllFrames.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" />
         <option value="$PROJECT_DIR$/Tests/com/company/FullGameTest.java" />
+        <option value="$PROJECT_DIR$/Tests/com/company/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/BonusScores.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/Score.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/FullGame.java" />
       </list>
     </option>
   </component>
@@ -117,47 +130,48 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="BowlingChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BowlingChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="Bowling_challenge--Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bowling_challenge--Java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BowlingChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BowlingChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="Bowling_challenge--Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bowling_challenge--Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BowlingChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BowlingChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="Bowling_challenge--Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bowling_challenge--Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BowlingChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BowlingChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="Bowling_challenge--Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bowling_challenge--Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BowlingChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BowlingChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="Bowling_challenge--Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bowling_challenge--Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BowlingChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BowlingChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="Bowling_challenge--Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bowling_challenge--Java" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BowlingChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BowlingChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="Bowling_challenge--Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bowling_challenge--Java" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -165,7 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FullGameTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Bowling" />
@@ -266,12 +279,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FullGameTest - 2019.07.29 at 15h 58m 58s.xml">
-      <configuration name="FullGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullGameTest - 2019.07.29 at 15h 59m 17s.xml">
-      <configuration name="FullGameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FullGameTest - 2019.07.29 at 16h 02m 43s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
@@ -296,6 +303,12 @@
     <history-entry file="FullGameTest - 2019.07.29 at 16h 27m 38s.xml">
       <configuration name="FullGameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FullGameTest - 2019.07.30 at 17h 10m 57s.xml">
+      <configuration name="FullGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FullGameTest - 2019.07.30 at 17h 11m 01s.xml">
+      <configuration name="FullGameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="37831000" />
@@ -309,7 +322,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.09290954" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19193155" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.24744377" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -332,7 +345,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" x="863" y="40" width="818" height="439" id="Run" order="9" weight="0.018337408" />
+      <window_info anchor="right" x="863" y="40" width="818" height="439" id="Run" order="9" visible="true" weight="0.31540343" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,24 +396,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/FullGame.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="78" selection-start-line="74" selection-start-column="78" selection-end-line="74" selection-end-column="78" />
+        <state relative-caret-position="408">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/com/company/FullGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1048">
-          <caret line="77" column="92" selection-start-line="77" selection-start-column="92" selection-end-line="77" selection-end-column="92" />
+        <state relative-caret-position="663">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/Tests/com/company/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/FullGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
         </state>
       </provider>
     </entry>

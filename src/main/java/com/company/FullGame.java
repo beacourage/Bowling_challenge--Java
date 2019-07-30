@@ -4,19 +4,14 @@ import java.util.ArrayList;
 
 public class FullGame {
 
-    private ArrayList<Object> frames;
-    private int score;
-    private int spareBonus;
-    private int strikeBonus;
+    private static ArrayList<Object> frames;
+
 
     public FullGame() {
         this.frames = new ArrayList<Object>();
-        this.score = 0;
-        this.spareBonus = 0;
-        this.strikeBonus = 0;
-}
+     }
 
-    public ArrayList<Object> getFrames() {
+    public static ArrayList<Object> getFrames() {
         return frames;
     }
 
@@ -26,43 +21,7 @@ public class FullGame {
            getFrames().add(roll2);
        }
     }
-
-    public int getScore() {
-             for (int i=0; i<20; i++) {
-                 score += (int) getFrames().get(i);
-             }
-        return score;
-    }
-
-
-    public int getSpareBonus() {
-        for (int i = 0; i < (getFrames().size()  - 2); i += 2) {
-            if (((int)getFrames().get(i) + (int)getFrames().get(i + 1) == 10 ) && ((int)getFrames().get(i) != 10)) {
-                spareBonus += (int)getFrames().get(i+2);
-            }
-        }
-        return spareBonus;
-    }
-
-    public int getStrikeBonus() {
-        for (int i = 0; i < (getFrames().size()  - 4); i += 2) {
-            if (((int)getFrames().get(i) == 10 )) {
-                if ((int)getFrames().get(i+2) == 10) {
-                    strikeBonus += (int)getFrames().get(i+2) + (int)getFrames().get(i+4);
-                } else
-                    strikeBonus += (int)getFrames().get(i+2) + (int)getFrames().get(i+3);
-            }
-        }
-        return strikeBonus;
-    }
-
-    public int totalScore() {
-        getScore();
-        getSpareBonus();
-        getStrikeBonus();
-        return (strikeBonus + spareBonus + score);
-    }
-
+    
 
 }
 
