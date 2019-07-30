@@ -21,7 +21,7 @@ public class FullGame {
            getFrames().add(roll2);
        }
     }
-    
+
 
 }
 
