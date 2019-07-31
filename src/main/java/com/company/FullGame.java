@@ -2,25 +2,64 @@ package com.company;
 
 import java.util.ArrayList;
 
+
 public class FullGame {
 
-    private static ArrayList<Object> frames;
+
+    private int score;
+    private int spareBonus;
+    private int strikeBonus;
+    private Frames frames;
 
 
-    public FullGame() {
-        this.frames = new ArrayList<Object>();
+
+    public FullGame(Frames frame) {
+        this.score = 0;
+        this.spareBonus = 0;
+        this.strikeBonus = 0;
+         frames = frame;
      }
 
-    public static ArrayList<Object> getFrames() {
-        return frames;
+
+
+    public int getScore() {
+        for (int i=0; i<20; i++) {
+            score += (int)frames.getFrames().get(i);
+        }
+        return score;
     }
 
-    public void all_frames(int roll1, int roll2) {
-       for (int i=0; i<10; i++) {
-           getFrames().add(roll1);
-           getFrames().add(roll2);
-       }
+
+
+    public int getSpareBonus() {
+        for (int i = 0; i < (frames.getFrames().size()  - 2); i += 2) {
+            if (((int)frames.getFrames().get(i) + (int)frames.getFrames().get(i + 1) == 10 ) && ((int)FullGame.getFrames().get(i) != 10)) {
+                spareBonus += (int)frames.getFrames().get(i+2);
+            }
+        }
+        return spareBonus;
     }
+
+    public int getStrikeBonus() {
+        for (int i = 0; i < (frames.getFrames().size()  - 4); i += 2) {
+            if (((int)frames.getFrames().get(i) == 10 )) {
+                if ((int)frames.getFrames().get(i+2) == 10) {
+                    strikeBonus += (int)frames.getFrames().get(i+2) + (int)frames.getFrames().get(i+4);
+                } else
+                    strikeBonus += (int)frames.getFrames().get(i+2) + (int)frames.getFrames().get(i+3);
+            }
+        }
+        return strikeBonus;
+    }
+
+
+    public int totalScore() {
+        getScore();
+        getSpareBonus();
+        getStrikeBonus();
+        return (strikeBonus + spareBonus + score);
+    }
+
 
 
 }
