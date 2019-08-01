@@ -9,14 +9,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Frames frames = new Frames();
-        FullGame game = new FullGame(frames);
+        Frames myframe = new Frames();
+        FullGame game = new FullGame(myframe);
 
 
-        frames.all_frames(2,3);
-        frames.getFrames().add(2);
+        myframe.all_frames(2,3);
+        myframe.getFrames().add(2);
 
-        System.out.println(frames.getFrames());
+        System.out.println(myframe.getFrames());
 
 
         System.out.println(game.getScore());

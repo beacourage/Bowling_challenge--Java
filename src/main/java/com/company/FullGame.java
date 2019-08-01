@@ -5,13 +5,10 @@ import java.util.ArrayList;
 
 public class FullGame {
 
-
     private int score;
     private int spareBonus;
     private int strikeBonus;
     private Frames frames;
-
-
 
     public FullGame(Frames frame) {
         this.score = 0;
@@ -19,7 +16,6 @@ public class FullGame {
         this.strikeBonus = 0;
          frames = frame;
      }
-
 
 
     public int getScore() {
@@ -33,7 +29,7 @@ public class FullGame {
 
     public int getSpareBonus() {
         for (int i = 0; i < (frames.getFrames().size()  - 2); i += 2) {
-            if (((int)frames.getFrames().get(i) + (int)frames.getFrames().get(i + 1) == 10 ) && ((int)FullGame.getFrames().get(i) != 10)) {
+            if (((int)frames.getFrames().get(i) + (int)frames.getFrames().get(i + 1) == 10 ) && ((int)frames.getFrames().get(i) != 10)) {
                 spareBonus += (int)frames.getFrames().get(i+2);
             }
         }

@@ -6,16 +6,13 @@ public class Frames {
 
     private static ArrayList<Object> frames;
 
-
     public  Frames() {
         this.frames = new ArrayList<Object>();
     }
 
-
     public  ArrayList<Object> getFrames() {
         return frames;
     }
-
 
     public  void all_frames(int roll1, int roll2) {
         for (int i=0; i<10; i++) {
@@ -23,6 +20,5 @@ public class Frames {
             getFrames().add(roll2);
         }
     }
-
 
 }
